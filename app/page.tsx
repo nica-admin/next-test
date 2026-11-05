@@ -7,7 +7,7 @@ export default function Home() {
         <Image
           className="dark:invert h-auto w-30"
           src="/nica-text-blk.svg"
-          alt="NICA logo"
+          alt="NICA Wordmark"
           width={100}
           height={20}
           priority
