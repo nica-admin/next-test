@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-gray-50 font-sans dark:bg-gray-950">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-gray-950 sm:items-start">
+      <main className="flex flex-1 w-full flex-col items-center justify-between py-32 px-16 bg-white dark:bg-gray-950 sm:items-start">
         <Image
           className="dark:invert h-auto w-30"
           src="/nica-text-blk.svg"
@@ -18,8 +18,8 @@ export default function Home() {
             <code className="rounded bg-black/6 px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/8">
               page.tsx
             </code>{" "}
-            file. &nbsp;<span className="relative inline-block before:absolute before:-inset-1 before:block before:-skew-x-3 before:bg-pink-500">
-    <span className="relative text-white dark:text-gray-950">Done!</span>
+            file. &nbsp;<span className="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-teal-600">
+    <span className="relative px-2 text-white dark:text-gray-950">Done!</span>
   </span>
           </h1>
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
@@ -40,30 +40,26 @@ export default function Home() {
             center.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+        <div className="flex flex-col gap-4 text-base">
+          <p className="max-w-md text-xs leading-12 text-gray-800 dark:text-gray-700">Useful Documentation:</p>
+          <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
           <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-39.5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-gray-200 px-5 text-background hover:text-gray-200 transition-colors hover:bg-gray-600 dark:hover:bg-gray-900 md:w-39.5"
+            href="https://tailwindcss.com/docs"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
-              className="dark:invert h-3.5 w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
+            TailwindCSS
           </a>
           <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/8 px-5 transition-colors hover:border-transparent hover:bg-black/4 dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-39.5"
+            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/8 px-5 transition-colors hover:border-transparent hover:bg-black/4 dark:border-white/[.145] dark:hover:bg-gray-900 md:w-39.5"
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Documentation
+            Next.js
           </a>
+          </div>
         </div>
       </main>
     </div>
