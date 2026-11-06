@@ -41,7 +41,7 @@ export default function Home() {
           </p>
         </div>
         <div className="flex flex-col gap-4 text-base">
-          <p className="max-w-md text-xs leading-12 text-gray-800 dark:text-gray-700">Useful Documentation:</p>
+          <p className="max-w-md text-lg leading-8 text-gray-800 dark:text-gray-400">Useful Documentation:</p>
           <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
           <a
             className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-gray-200 px-5 text-background hover:text-gray-200 transition-colors hover:bg-gray-600 dark:hover:bg-gray-900 md:w-39.5"
