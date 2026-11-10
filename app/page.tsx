@@ -13,14 +13,14 @@ export default function Home() {
           priority
         />
         <div className="flex flex-col rounded-lg bg-gray-900 backdrop-blur-sm items-center gap-6 text-center sm:items-start sm:text-left p-6">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
+          <h1 className="max-w-xs text-3xl leading-10 tracking-tight text-black dark:text-zinc-50">
             To get started, edit the{" "}
-            <code className="rounded bg-black/6 px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/8">
+            <span className="rounded bg-black/6 px-1.5 py-0.5 font-black text-[0.9em] dark:bg-white/8">
               page.tsx
-            </code>{" "}
+            </span>{" "}
             file. &nbsp;<span className="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-teal-600">
-    <span className="relative px-2 text-white dark:text-gray-950">Done!</span>
-  </span>
+            <span className="relative font-black px-2 text-white dark:text-gray-950">Done!</span>
+            </span>
           </h1>
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
             Looking for a starting point or more instructions? Head on over to{" "}
@@ -39,6 +39,10 @@ export default function Home() {
             </a>{" "}
             center.
           </p>
+        </div>
+        <div className="flex flex-col rounded-lg bg-gray-900 backdrop-blur-sm items-center gap-6 text-center sm:items-start sm:text-left p-6">
+          <p className="max-w-md text-lg leading-8 text-gray-800 dark:text-gray-400"><span className="text-xs">Nov 9, 2026 - TonyP</span><br />Added Metric (headings) and Libre Franklin (body) fonts to project.</p>
+          <p className="max-w-md text-lg leading-8 text-gray-800 dark:text-teal-600">Make sure to fetch the change from git.</p>
         </div>
         <div className="flex flex-col gap-4 text-base">
           <p className="max-w-md text-lg leading-8 text-gray-800 dark:text-gray-400">Useful Documentation:</p>
