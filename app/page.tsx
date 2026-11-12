@@ -42,7 +42,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col rounded-lg bg-gray-900 backdrop-blur-sm items-center gap-6 text-center sm:items-start sm:text-left p-6">
           <p className="max-w-md text-lg leading-8 text-gray-800 dark:text-gray-400"><span className="text-xs">Nov 9, 2026 - TonyP</span><br />Added Metric (headings) and Libre Franklin (body) fonts to project.</p>
-          <p className="max-w-md text-lg leading-8 text-gray-800 dark:text-teal-600">Make sure to fetch the change from git.</p>
+          <p className="max-w-md text-lg leading-8 text-gray-800 dark:text-teal-600">Make sure to fetch any changes from git!</p>
         </div>
         <div className="flex flex-col gap-4 text-base">
           <p className="max-w-md text-lg leading-8 text-gray-800 dark:text-gray-400">Useful Documentation:</p>
