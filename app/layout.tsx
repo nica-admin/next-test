@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Libre_Franklin, DM_Mono } from "next/font/google";
+import Header from "@/components/Header";
 import "./globals.css";
 
 const metric = localFont({
@@ -51,7 +52,10 @@ export default function RootLayout({
       lang="en"
       className={`${metric.variable} ${libreFranklin.variable} ${dmMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+      <Header />
+      {children}
+      </body>
     </html>
   );
 }

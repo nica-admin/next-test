@@ -1,17 +1,8 @@
-import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-gray-50 font-sans dark:bg-gray-950">
       <main className="flex flex-1 w-full flex-col items-center justify-between py-32 px-16 bg-white dark:bg-gray-950 sm:items-start">
-        <Image
-          className="dark:invert h-auto w-30"
-          src="/nica-text-blk.svg"
-          alt="NICA Wordmark"
-          width={100}
-          height={20}
-          priority
-        />
         <div className="flex flex-col rounded-lg bg-gray-900 backdrop-blur-sm items-center gap-6 text-center sm:items-start sm:text-left p-6">
           <h1 className="max-w-xs text-3xl leading-10 tracking-tight text-black dark:text-zinc-50">
             To get started, edit the{" "}
