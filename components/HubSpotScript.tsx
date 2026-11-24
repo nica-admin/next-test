@@ -5,7 +5,7 @@ import Script from 'next/script';
 import { usePathname } from 'next/navigation';
 
 // Replace with your HubSpot Portal / Hub ID (e.g., '12345678')
-const HUB_ID = '51547939';
+const HUB_ID = '45405801';
 
 declare global {
   interface Window {

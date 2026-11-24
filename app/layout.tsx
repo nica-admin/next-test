@@ -4,6 +4,7 @@ import { Libre_Franklin, DM_Mono } from "next/font/google";
 import "./globals.css";
 
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import FundraiseUpScript from '@/components/FundraiseUpScript';
 import HubSpotScript from '@/components/HubSpotScript';
 
@@ -55,6 +56,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
       <Header />
       {children}
+      <Footer />
       <FundraiseUpScript />
       <HubSpotScript />
       </body>
