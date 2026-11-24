@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Libre_Franklin, DM_Mono } from "next/font/google";
-import Header from "@/components/Header";
 import "./globals.css";
+
+import Header from "@/components/Header";
+import FundraiseUpScript from '@/components/FundraiseUpScript';
+import HubSpotScript from '@/components/HubSpotScript';
 
 const metric = localFont({
   src: [
@@ -48,13 +51,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html
-      lang="en"
-      className={`${metric.variable} ${libreFranklin.variable} ${dmMono.variable} h-full antialiased`}
-    >
+    <html lang="en" className={`${metric.variable} ${libreFranklin.variable} ${dmMono.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
       <Header />
       {children}
+      <FundraiseUpScript />
+      <HubSpotScript />
       </body>
     </html>
   );

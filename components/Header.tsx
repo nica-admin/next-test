@@ -47,10 +47,7 @@ export default function Header() {
               </Link>
             );
           })}
-          <Link
-            href="/login"
-            className="rounded-lg bg-teal-600 px-4 py-2 text-sm font-medium text-white hover:bg-teal-700 transition-colors"
-          >
+          <Link href="https://giving.nationalmtb.org/-/XTAHYZEN?fundraiseupLivemode=no" className="rounded-lg bg-teal-600 px-4 py-2 text-sm font-medium text-white hover:bg-teal-700 transition-colors">
             Donate
           </Link>
         </nav>
@@ -96,13 +93,9 @@ export default function Header() {
                 </Link>
               );
             })}
-            <Link
-              href="/login"
-              onClick={() => setIsOpen(false)}
-              className="mt-2 block w-full rounded-lg bg-teal-600 px-3 py-2 text-center text-base font-medium text-white hover:bg-teal-700"
-            >
-              Sign In
-            </Link>
+            <Link href="https://giving.nationalmtb.org/-/XTAHYZEN?fundraiseupLivemode=no" onClick={() => setIsOpen(false)} className="mt-2 block w-full rounded-lg bg-teal-600 px-3 py-2 text-center text-base font-medium text-white hover:bg-teal-700">
+            Donate
+          </Link>
           </div>
         </div>
       )}
